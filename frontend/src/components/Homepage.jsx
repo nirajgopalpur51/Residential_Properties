@@ -23,10 +23,9 @@ function AddPropertyForm() {
   };
 
   const handleLogout = () => {
-    // Clear the token or session data (if stored in localStorage or sessionStorage)
-    localStorage.removeItem('authToken'); // Adjust according to your auth logic
+  
+    localStorage.removeItem('authToken'); 
     
-    // Redirect to the homepage
     navigate('/');
   };
 
